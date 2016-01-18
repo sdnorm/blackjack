@@ -1,6 +1,8 @@
+require_relative 'blackjack_card'
+
 class Deck
   attr_accessor :cards, :deal
-  
+
   def initialize
     @cards = []
     suits = [:Hearts, :Diamonds, :Spades, :Clubs]
@@ -13,7 +15,7 @@ class Deck
       end
     end
   end
-#creates the deck of cards 
+#creates the deck of cards
   def shuffle
     @cards.shuffle!
   end

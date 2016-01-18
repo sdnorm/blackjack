@@ -1,3 +1,6 @@
+require_relative 'blackjack_deck'
+require_relative 'blackjack_card'
+
 class Hand
   attr_accessor :cards, :deck
 

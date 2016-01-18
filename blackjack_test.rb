@@ -1,11 +1,5 @@
-require 'blackjack_hand.rb'
-require 'blackjack_game.rb'
-require 'blackjack_card.rb'
-require 'blackjack_deck.rb'
+require_relative 'blackjack_hand.rb'
+require_relative 'blackjack_game.rb'
+require_relative 'blackjack_deck.rb'
 
 Game.new
-
-
-
-
-

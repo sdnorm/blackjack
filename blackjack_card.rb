@@ -1,3 +1,5 @@
+require_relative 'blackjack_hand'
+
 class Card
   attr_accessor :value, :suit, :name
 
